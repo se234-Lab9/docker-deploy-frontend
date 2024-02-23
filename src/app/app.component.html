@@ -15,7 +15,7 @@
             <label for="inputPassword2" class="sr-only">Password</label>
             <input [(ngModel)]="score" name="score" type="text" class="form-control" id="score" placeholder="Score...">
           </div>
-          <button type="submit" class="btn btn-primary mb-2" (click)="getGrade()">Submit</button>
+          <button type="answer" class="btn btn-primary mb-2" (click)="getGrade()">Submit</button>
         </form>
   </div>
   <div *ngIf="showOutput" class="col-md-6">
